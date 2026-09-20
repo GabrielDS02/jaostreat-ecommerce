@@ -120,7 +120,7 @@ jaostreat-ecommerce/
 
 2. **Navegue até a pasta do projeto:**
    ```bash
-   cd jaostreat-ecommerce/public
+   cd jaostreat-ecommerce/public/index.html
 Abra o arquivo index.html no seu navegador:
 Você pode simplesmente dar um duplo clique no arquivo index.html, ou, para uma melhor experiência de desenvolvimento, utilize uma extensão como o Live Server no VS Code.
 
