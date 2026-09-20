@@ -64,14 +64,48 @@ Consulte os arquivos `LICENSE` para obter mais informações.
 
 ```text
 jaostreat-ecommerce/
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
-├── design/          # Mockups e protótipos visuais do projeto
-├── index.html       # Página inicial
-├── manifest.json    # Configuração do PWA
-├── sw.js            # Service Worker
+├── design/                     # Mockups e protótipos visuais do projeto
+│   ├── Banner/
+│   │   └── img.png
+│   ├── 01-home-page.png
+│   ├── 02-menu-navegacao.png
+│   ├── 03-carrinho-checkout.png
+│   ├── 04-lookbook.png
+│   ├── 05-bastidores.png
+│   ├── 06-manifesto-marca.png
+│   ├── 07-sobre-a-firma.png
+│   ├── 08-feedbacks-clientes.png
+│   ├── 09-produtos.png
+│   ├── 10-produtos-2.png
+│   ├── 11-mais-vendidos.png
+│   ├── 12-mais-vendidos-2.png
+│   └── 13-footer.png
+│
+├── public/                     # Código-fonte do site (Front-end)
+│   ├── assets/
+│   │   ├── css/                # Folhas de estilo
+│   │   │   ├── feedbacks.css
+│   │   │   ├── index.css
+│   │   │   ├── lookbook.css
+│   │   │   ├── sobre.css
+│   │   │   └── whatsapp_global.css
+│   │   ├── favicon/            # Ícones do site
+│   │   ├── icons/              # Ícones gerais
+│   │   └── js/                 # Scripts e lógica
+│   │       ├── manifest_aplicativo_PWA/  # Configuração do PWA
+│   │       │   ├── icons_manifest_PWA/
+│   │       │   └── manifest_archive.json
+│   │       ├── service_worker/ # Lógica offline do PWA
+│   │       │   └── service-worker.js
+│   │       ├── feedback.js     # Script da página de feedbacks
+│   │       └── index.js        # Script principal (Home)
+│   │
+│   ├── feedbacks.html          # Página de avaliações
+│   ├── index.html              # Página inicial
+│   ├── lookbook.html           # Página de inspiração
+│   └── sobre.html              # Página institucional
+│
+├── LICENSE
 └── README.md
 ```
 
