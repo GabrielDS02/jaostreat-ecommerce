@@ -1,0 +1,80 @@
+{
+    "name": "JãoStreat | Streetwear com atitude",
+    "short_name": "JãoStreat",
+    "description": "JãoStreat — moda streetwear com atitude, estilo e personalidade.",
+    "lang": "pt-BR",
+    "dir": "ltr",
+    "start_url": "../../index.html",
+    "scope": "../../",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#0a0a0a",
+    "theme_color": "#0a0a0a",
+    "categories": [
+        "shopping",
+        "fashion"
+    ],
+
+    "icons": [
+        {
+            "src": "../../icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "../../icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "../../icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+
+    "shortcuts": [
+        {
+            "name": "Início",
+            "short_name": "Início",
+            "description": "Acesse a página inicial da JãoStreat",
+            "url": "../../index.html",
+            "icons": [
+                {
+                    "src": "../../icons/icon-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Lookbook",
+            "short_name": "Lookbook",
+            "description": "Veja os looks da JãoStreat",
+            "url": "../../lookbook.html",
+            "icons": [
+                {
+                    "src": "../../icons/icon-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Feedbacks",
+            "short_name": "Feedbacks",
+            "description": "Confira os feedbacks dos clientes",
+            "url": "../../feedbacks.html",
+            "icons": [
+                {
+                    "src": "../../icons/icon-192x192.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        }
+    ]
+}
