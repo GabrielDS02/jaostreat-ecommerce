@@ -1,6 +1,6 @@
 <!-- Banner do Projeto (Você pode usar uma das fotos do design como banner) -->
 <div align="center">
-  <img src="./design/01-home.png" alt="Banner Jaostreat" width="100%">
+  <img src="./design/Banner/img.png" alt="Banner Jaostreat" width="40%">
 </div>
 
 <h1 align="center">Jaostreat E-commerce</h1>
