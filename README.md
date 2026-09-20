@@ -17,6 +17,7 @@
   <img src="https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA">
 </p>
 
+
 ---
 
 ## 📖 Sobre o Projeto
@@ -24,6 +25,8 @@
 A **Jaostreat** é uma loja virtual desenvolvida como projeto prático para o curso **Técnico em Desenvolvimento de Sistemas** na instituição **Proz Venda Nova**. 
 
 O objetivo do projeto é criar uma experiência de compra imersiva para uma marca de roupas streetwear, focando em uma interface moderna, responsiva e de fácil usabilidade. O sistema conta com catálogo de produtos, carrinho de compras e finalização de pedido diretamente pelo WhatsApp.
+<br></br>
+**[Ver projeto publicado: Jaostreat](https://jaostreat.netlify.app/)**
 
 ## 🚀 Funcionalidades
 
@@ -49,6 +52,13 @@ Você pode conferir todos os mockups e protótipos na pasta [`/design`](./design
 - **JavaScript (ES6+):** Lógica do carrinho de compras, manipulação do DOM e interatividade.
 - **PWA:** Service Workers e Web App Manifest para comportamento de aplicativo nativo.
 - **Git & GitHub:** Versionamento de código e hospedagem.
+
+## 📄 Licenças
+
+- **Código-fonte:** licenciado sob a [Apache License 2.0](LICENSE).
+- **Bibliotecas JavaScript:** distribuídas conforme suas respectivas licenças de código aberto.
+
+Consulte os arquivos `LICENSE` para obter mais informações.
 
 ## 📂 Estrutura de Pastas
 
