@@ -67,6 +67,8 @@ jaostreat-ecommerce/
 ├── design/                     # Mockups e protótipos visuais do projeto
 │   ├── Banner/
 │   │   └── img.png
+│   ├── Logos/
+│   │   └── img.png
 │   ├── 01-home-page.png
 │   ├── 02-menu-navegacao.png
 │   ├── 03-carrinho-checkout.png
