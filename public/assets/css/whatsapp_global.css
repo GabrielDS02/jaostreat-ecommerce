@@ -1,0 +1,2 @@
+/* Componente isolado para facilitar a troca do acabamento do WhatsApp. */
+.whatsapp-float:active .whatsapp-float__icon { transform: scale(.94); }

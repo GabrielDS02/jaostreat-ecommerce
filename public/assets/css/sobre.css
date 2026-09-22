@@ -1,0 +1,42 @@
+.about-hero { display: grid; gap: 2rem; align-items: center; padding-block: clamp(4rem, 9vw, 8rem); }
+.about-hero h1 { margin: 1rem 0 1.7rem; font-size: clamp(3.5rem, 10vw, 8.5rem); font-weight: 800; letter-spacing: -.085em; line-height: .78; text-transform: uppercase; }
+.about-hero h1 span { color: transparent; -webkit-text-stroke: 1px var(--white); }
+.about-hero__copy > p { max-width: 34rem; margin: 0; color: var(--muted); font-size: clamp(1rem, 2vw, 1.25rem); }
+.about-hero__media { position: relative; min-height: 34rem; overflow: hidden; border: 1px solid var(--line); }
+.about-hero__media img { width: 100%; height: 100%; object-fit: cover; filter: grayscale(.8) contrast(1.1); transition: filter .6s ease, transform 1s var(--ease); }
+.about-hero__media:hover img { filter: grayscale(.25) contrast(1.05); transform: scale(1.035); }
+.about-hero__seal { position: absolute; right: 1.2rem; bottom: 1.2rem; display: grid; width: 6rem; height: 6rem; place-items: center; border: 1px solid #fff; border-radius: 50%; background: rgba(0,0,0,.35); font-size: .65rem; font-weight: 800; letter-spacing: .12em; line-height: 1.3; text-align: center; transform: rotate(-8deg); }
+.manifesto-wall { padding-block: clamp(5rem, 12vw, 10rem); background: var(--white); color: var(--black); }
+.manifesto-wall__number { display: block; margin-bottom: 2rem; color: #5a5a5a; font-size: .7rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.manifesto-wall p { margin: 0; font-family: "UnifrakturCook", Georgia, serif; font-size: clamp(2.2rem, 7vw, 6rem); line-height: 1.03; text-align: justify; }
+.manifesto-wall p strong { color: var(--accent); font-weight: inherit; }
+.story { display: grid; gap: 2rem; padding-block: clamp(5rem, 10vw, 9rem); }
+.story__intro h2 { max-width: 14ch; margin: 1rem 0 0; font-size: clamp(2.5rem, 6vw, 5rem); letter-spacing: -.07em; line-height: .98; }
+.story__body { max-width: 38rem; }
+.story__body p { color: var(--muted); font-size: clamp(.95rem, 2vw, 1.1rem); }
+.values { border-block: 1px solid var(--line); }
+.values__grid { display: grid; }
+.value-card { position: relative; min-height: 22rem; padding: 2rem 0; border-bottom: 1px solid var(--line); }
+.value-card > span { color: var(--muted); font-size: .65rem; }
+.value-card > i { display: block; margin: 4rem 0 2rem; font-size: 2rem; }
+.value-card h3 { margin-bottom: .7rem; font-size: 1.45rem; letter-spacing: -.04em; }
+.value-card p { max-width: 20rem; margin: 0; color: var(--muted); font-size: .85rem; }
+.numbers { display: grid; gap: 1rem; padding-block: clamp(5rem, 10vw, 8rem); }
+.number { display: flex; min-height: 13rem; flex-direction: column; justify-content: space-between; padding: 1.5rem; border: 1px solid var(--line); }
+.number strong { font-size: clamp(4rem, 12vw, 7rem); letter-spacing: -.08em; line-height: .75; }
+.number strong::after { content: "+"; color: var(--accent); font-size: .45em; }
+.number span { color: var(--muted); font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; }
+.about-cta { padding-block: clamp(5rem, 10vw, 9rem); background: var(--panel); text-align: center; }
+.about-cta__inner { display: flex; flex-direction: column; align-items: center; }
+.about-cta h2 { margin: 1rem 0 2rem; font-family: "UnifrakturCook", Georgia, serif; font-size: clamp(3.5rem, 12vw, 9rem); line-height: .86; }
+.about-cta__inner > div { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 1.5rem; }
+@media (min-width: 48rem) {
+    .about-hero { grid-template-columns: 1.1fr .9fr; }
+    .about-hero__media { min-height: 43rem; }
+    .story { grid-template-columns: 1fr 1fr; gap: 4rem; }
+    .values__grid { grid-template-columns: repeat(3, 1fr); }
+    .value-card { padding: 2rem; border-right: 1px solid var(--line); border-bottom: 0; }
+    .value-card:first-child { padding-left: 0; }
+    .value-card:last-child { border-right: 0; padding-right: 0; }
+    .numbers { grid-template-columns: repeat(3, 1fr); }
+}

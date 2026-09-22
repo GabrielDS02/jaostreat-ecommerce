@@ -1,11 +1,11 @@
 {
     "name": "JãoStreat | Streetwear com atitude",
     "short_name": "JãoStreat",
-    "description": "JãoStreat — moda streetwear com atitude, estilo e personalidade.",
+    "description": "Streetwear independente em drops limitados. Sem risco. Sem história.",
     "lang": "pt-BR",
     "dir": "ltr",
-    "start_url": "../../index.html",
-    "scope": "../../",
+    "start_url": "/index.html",
+    "scope": "/",
     "display": "standalone",
     "orientation": "portrait-primary",
     "background_color": "#0a0a0a",
@@ -14,37 +14,48 @@
         "shopping",
         "fashion"
     ],
-
     "icons": [
         {
-            "src": "../../icons/icon-192x192.png",
+            "src": "/assets/js/manifest_aplicativo_PWA/icons_manifest_PWA/Icons_192x192/icon-192x192_fundo_preto.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any"
         },
         {
-            "src": "../../icons/icon-512x512.png",
+            "src": "/assets/js/manifest_aplicativo_PWA/icons_manifest_PWA/icons_512x512/icon-512x512_fundo_preto.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any"
         },
         {
-            "src": "../../icons/icon-512x512.png",
+            "src": "/assets/js/manifest_aplicativo_PWA/icons_manifest_PWA/icons_512x512/icon-512x512_fundo_preto.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable"
         }
     ],
-
     "shortcuts": [
         {
             "name": "Início",
             "short_name": "Início",
             "description": "Acesse a página inicial da JãoStreat",
-            "url": "../../index.html",
+            "url": "/index.html",
             "icons": [
                 {
-                    "src": "../../icons/icon-192x192.png",
+                    "src": "/assets/js/manifest_aplicativo_PWA/icons_manifest_PWA/Icons_192x192/icon-192x192_fundo_preto.png",
+                    "sizes": "192x192",
+                    "type": "image/png"
+                }
+            ]
+        },
+        {
+            "name": "Shop",
+            "short_name": "Shop",
+            "description": "Veja todas as peças do drop atual",
+            "url": "/produtos.html",
+            "icons": [
+                {
+                    "src": "/assets/js/manifest_aplicativo_PWA/icons_manifest_PWA/Icons_192x192/icon-192x192_fundo_preto.png",
                     "sizes": "192x192",
                     "type": "image/png"
                 }
@@ -54,10 +65,10 @@
             "name": "Lookbook",
             "short_name": "Lookbook",
             "description": "Veja os looks da JãoStreat",
-            "url": "../../lookbook.html",
+            "url": "/lookbook.html",
             "icons": [
                 {
-                    "src": "../../icons/icon-192x192.png",
+                    "src": "/assets/js/manifest_aplicativo_PWA/icons_manifest_PWA/Icons_192x192/icon-192x192_fundo_preto.png",
                     "sizes": "192x192",
                     "type": "image/png"
                 }
@@ -67,10 +78,10 @@
             "name": "Feedbacks",
             "short_name": "Feedbacks",
             "description": "Confira os feedbacks dos clientes",
-            "url": "../../feedbacks.html",
+            "url": "/feedbacks.html",
             "icons": [
                 {
-                    "src": "../../icons/icon-192x192.png",
+                    "src": "/assets/js/manifest_aplicativo_PWA/icons_manifest_PWA/Icons_192x192/icon-192x192_fundo_preto.png",
                     "sizes": "192x192",
                     "type": "image/png"
                 }
