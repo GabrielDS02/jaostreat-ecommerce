@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#050505">
+    <meta name="description" content="Explore camisetas, moletons, conjuntos, jaquetas e calças streetwear da JãoStreat.">
+    <title>Shop | JãoStreat</title>
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon_192x192/favicon_192x192_fundo_preto.png">
+    <link rel="manifest" href="./assets/js/manifest_aplicativo_PWA/manifest_archive.json">
+    <link rel="preconnect" href="https://images.pexels.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/whatsapp_global.css">
+    <link rel="stylesheet" href="./assets/css/produtos.css">
+</head>
+<body data-page="produtos">
+    <div data-site-header></div>
+
+    <main>
+        <header class="catalog-hero site-shell reveal">
+            <div>
+                <span class="eyebrow">Drop atual</span>
+                <h1>Shop</h1>
+            </div>
+            <p>Peças unissex em lotes pequenos. Escolha seu tamanho, monte o carrinho e finalize direto com a nossa equipe.</p>
+        </header>
+
+        <section class="catalog site-shell" aria-label="Catálogo de produtos">
+            <div class="catalog-toolbar reveal">
+                <div class="filter-list" role="group" aria-label="Filtrar por categoria">
+                    <button class="is-active" type="button" data-filter="Todos">Todos</button>
+                    <button type="button" data-filter="Camisetas">Camisetas</button>
+                    <button type="button" data-filter="Moletons">Moletons</button>
+                    <button type="button" data-filter="Conjuntos">Conjuntos</button>
+                    <button type="button" data-filter="Jaquetas">Jaquetas</button>
+                    <button type="button" data-filter="Calças">Calças</button>
+                </div>
+                <label class="sort-control">
+                    <span class="sr-only">Ordenar produtos</span>
+                    <i class="bi bi-sliders"></i>
+                    <select data-sort>
+                        <option value="featured">Destaques</option>
+                        <option value="newest">Novidades</option>
+                        <option value="low">Menor preço</option>
+                        <option value="high">Maior preço</option>
+                        <option value="name">Nome A–Z</option>
+                    </select>
+                </label>
+            </div>
+            <div class="catalog-meta"><span data-product-count>0 peças</span><span>Fotos ilustrativas do drop</span></div>
+            <div class="product-grid catalog-grid" data-catalog-grid></div>
+            <div class="catalog-empty" data-catalog-empty hidden>
+                <i class="bi bi-bag-x"></i>
+                <h2>Nenhuma peça nesta categoria.</h2>
+                <button class="button button--line" type="button" data-reset-filter>Ver catálogo completo</button>
+            </div>
+        </section>
+
+        <section class="size-callout">
+            <div class="site-shell size-callout__inner reveal">
+                <div><span class="eyebrow">Dúvida no tamanho?</span><h2>A gente resolve.</h2></div>
+                <p>Abra a peça para consultar a referência de medidas ou chame no WhatsApp antes de fechar. Sem chute, sem complicação.</p>
+                <a class="button button--light" href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Preciso%20de%20ajuda%20para%20escolher%20meu%20tamanho." target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i> Pedir ajuda</a>
+            </div>
+        </section>
+    </main>
+
+    <div data-site-footer></div>
+
+    <script src="./assets/js/shared.js" defer></script>
+    <script src="./assets/js/produtos.js" defer></script>
+</body>
+</html>

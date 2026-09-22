@@ -1,48 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Título da Página -->
-    <title>JãoStreat | Feedbacks</title>
-
-    <!-- Meta SEO -->
-    <meta name="description"
-        content="Confira os feedbacks dos clientes da JãoStreat e veja as experiências de quem já faz parte da nossa comunidade.">
-
-    <meta name="author" content="JãoStreat">
-
-    <!-- Favicon / Ícones da JãoStreat -->
-    <link rel="icon" type="image/png" sizes="192x192" href="./assets/img/favicon-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="./assets/img/favicon-512x512.png">
-
-    <!-- Ícone para dispositivos Apple -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon-192x192.png">
-
-    <!-- Cor do navegador -->
-    <meta name="theme-color" content="#0a0a0a">
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-
-    <!-- CSS - Principal -->
-    <link rel="stylesheet" href="./css/feedbacks.css">
-
-    <!-- CSS - WhatsApp Global -->
-    <link rel="stylesheet" href="./css/whatssap_global.css">
+    <meta name="theme-color" content="#050505">
+    <meta name="description" content="Avaliações e experiências de clientes da JãoStreat.">
+    <title>Feedbacks | JãoStreat</title>
+    <link rel="icon" type="image/png" href="./assets/favicon/favicon_192x192/favicon_192x192_fundo_preto.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/global.css">
+    <link rel="stylesheet" href="./assets/css/whatsapp_global.css">
+    <link rel="stylesheet" href="./assets/css/feedbacks.css">
 </head>
+<body data-page="feedbacks">
+    <div data-site-header></div>
 
-<body>
-    
-    <!-- Script - principal -->
-    <script src="./js/feedbacks.js" defer></script>
+    <main>
+        <header class="reviews-hero site-shell reveal">
+            <span class="eyebrow">Experiências reais</span>
+            <h1>Feedbacks</h1>
+            <p>O que a comunidade fala sobre qualidade, caimento, entrega e atendimento.</p>
+        </header>
 
-    
+        <section class="rating-summary site-shell reveal" aria-label="Resumo das avaliações">
+            <div class="rating-summary__score"><strong>5,0</strong><div aria-label="5 estrelas"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div><span>127 avaliações verificadas</span></div>
+            <div class="rating-bars">
+                <div><span>5 <i class="bi bi-star-fill"></i></span><div><i style="width:94%"></i></div><strong>121</strong></div>
+                <div><span>4 <i class="bi bi-star-fill"></i></span><div><i style="width:12%"></i></div><strong>6</strong></div>
+                <div><span>3 <i class="bi bi-star-fill"></i></span><div><i style="width:0%"></i></div><strong>0</strong></div>
+                <div><span>2 <i class="bi bi-star-fill"></i></span><div><i style="width:0%"></i></div><strong>0</strong></div>
+                <div><span>1 <i class="bi bi-star-fill"></i></span><div><i style="width:0%"></i></div><strong>0</strong></div>
+            </div>
+            <div class="rating-summary__badge"><i class="bi bi-patch-check-fill"></i><strong>Compra verificada</strong><span>Feedbacks enviados após atendimento.</span></div>
+        </section>
+
+        <section class="reviews site-shell">
+            <div class="reviews__toolbar reveal"><span data-review-count>6 avaliações em destaque</span><div><button class="is-active" type="button" data-review-filter="all">Todas</button><button type="button" data-review-filter="product">Produto</button><button type="button" data-review-filter="service">Atendimento</button></div></div>
+            <div class="reviews__list" data-reviews-list>
+                <article class="review-card reveal" data-review-category="product">
+                    <div class="review-card__person"><span>LF</span><div><strong>Lucas Ferreira</strong><small>Cliente verificado · São Paulo</small></div><i class="bi bi-patch-check-fill"></i></div>
+                    <div class="review-card__stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><span>há 2 semanas</span></div>
+                    <blockquote>“Qualidade absurda. As peças são únicas, o caimento é perfeito e o acabamento é diferenciado. A camiseta virou minha favorita.”</blockquote>
+                    <footer><span>Comprou: Camiseta Boxy Void</span><span><i class="bi bi-hand-thumbs-up"></i> Útil para 18 pessoas</span></footer>
+                </article>
+                <article class="review-card reveal" data-review-category="service">
+                    <div class="review-card__person"><span>GM</span><div><strong>Gabriela Martins</strong><small>Cliente verificada · Campinas</small></div><i class="bi bi-patch-check-fill"></i></div>
+                    <div class="review-card__stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><span>há 1 mês</span></div>
+                    <blockquote>“Atendimento muito atencioso pelo WhatsApp. Me ajudaram no tamanho, responderam rápido e a entrega chegou antes do combinado.”</blockquote>
+                    <footer><span>Comprou: Moletom Nocturne</span><span><i class="bi bi-hand-thumbs-up"></i> Útil para 11 pessoas</span></footer>
+                </article>
+                <article class="review-card reveal" data-review-category="product">
+                    <div class="review-card__person"><span>MS</span><div><strong>Matheus Silva</strong><small>Cliente verificado · Rio de Janeiro</small></div><i class="bi bi-patch-check-fill"></i></div>
+                    <div class="review-card__stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><span>há 3 semanas</span></div>
+                    <blockquote>“Marca diferenciada. O tecido tem peso, a modelagem veste muito bem e o design foge do que todo mundo está fazendo.”</blockquote>
+                    <footer><span>Comprou: Conjunto Signal 1.0</span><span><i class="bi bi-hand-thumbs-up"></i> Útil para 9 pessoas</span></footer>
+                </article>
+                <article class="review-card reveal" data-review-category="service">
+                    <div class="review-card__person"><span>AN</span><div><strong>Ana Nogueira</strong><small>Cliente verificada · Belo Horizonte</small></div><i class="bi bi-patch-check-fill"></i></div>
+                    <div class="review-card__stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><span>há 5 dias</span></div>
+                    <blockquote>“Tive dúvida no pagamento e resolveram tudo em minutos. Atendimento humano e sem mensagem automática enrolando.”</blockquote>
+                    <footer><span>Comprou: Jaqueta Eclipse</span><span><i class="bi bi-hand-thumbs-up"></i> Útil para 7 pessoas</span></footer>
+                </article>
+                <article class="review-card reveal" data-review-category="product">
+                    <div class="review-card__person"><span>RC</span><div><strong>Rafa Costa</strong><small>Cliente verificado · Curitiba</small></div><i class="bi bi-patch-check-fill"></i></div>
+                    <div class="review-card__stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><span>há 1 semana</span></div>
+                    <blockquote>“A calça tem exatamente o volume que eu queria. Costura firme, bolsos bons e regulagem que funciona de verdade.”</blockquote>
+                    <footer><span>Comprou: Calça Axis Cargo</span><span><i class="bi bi-hand-thumbs-up"></i> Útil para 6 pessoas</span></footer>
+                </article>
+                <article class="review-card reveal" data-review-category="product">
+                    <div class="review-card__person"><span>JV</span><div><strong>João Vitor</strong><small>Cliente verificado · Salvador</small></div><i class="bi bi-patch-check-fill"></i></div>
+                    <div class="review-card__stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><span>há 4 dias</span></div>
+                    <blockquote>“Primeira compra e já quero o próximo drop. Embalagem bonita, peça impecável e tamanho bateu certinho com o guia.”</blockquote>
+                    <footer><span>Comprou: Camiseta Manifesto</span><span><i class="bi bi-hand-thumbs-up"></i> Útil para 4 pessoas</span></footer>
+                </article>
+            </div>
+        </section>
+
+        <section class="review-cta"><div class="site-shell review-cta__inner reveal"><div><span class="eyebrow">Já faz parte?</span><h2>Conta pra gente.</h2></div><p>Seu feedback ajuda a melhorar os próximos drops e orienta quem ainda está escolhendo a primeira peça.</p><a class="button button--light" href="https://wa.me/5511999999999?text=Ol%C3%A1%21%20Quero%20enviar%20meu%20feedback%20sobre%20a%20J%C3%A3oStreat." target="_blank" rel="noopener noreferrer"><i class="bi bi-whatsapp"></i> Enviar feedback</a></div></section>
+    </main>
+
+    <div data-site-footer></div>
+    <script src="./assets/js/shared.js" defer></script>
+    <script src="./assets/js/feedback.js" defer></script>
 </body>
 </html>
