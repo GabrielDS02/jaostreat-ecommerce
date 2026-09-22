@@ -1,7 +1,7 @@
 (() => {
     "use strict";
 
-    const WHATSAPP_NUMBER = "5511999999999";
+    const WHATSAPP_NUMBER = "553173083040";
     const STORAGE_KEY = "jaostreat-cart-v2";
 
     const products = [
